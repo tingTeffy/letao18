@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="lib/mui/css/mui.css">
+    <!-- 2.引入字体图标的css包,提供页面图标 -->
+    <link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css">
+    <!-- 3.引入自己的样式文件  -->
+    <link rel="stylesheet/less" href="less/index.less">
+    <!-- 4.引入less的编译器文件 -->
+    <script src="lib/less/less.js"></script>
+</head>
+
+<body>
+    <!-- Begin 头部 -->
+    <header id="header">
+        <h4>乐淘云购</h4>
+        <a class="fa fa-search" aria-hidden="true"></a>
+    </header>
+    <!-- End 头部 -->
+
+    <section class="carousel">
+        <div class="mui-slider">
+            <div class="mui-slider-group mui-slider-loop">
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                    <a href="#">
+                        <img src="images/banner4.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="images/banner1.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="images/banner2.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="images/banner3.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="images/banner4.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                    <a href="#">
+                        <img src="images/banner1.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="mui-slider-indicator">
+                    <div class="mui-indicator mui-active"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                </div>
+        </div>
+    </section>
+
+    <script src="./lib/mui/js/mui.js"></script>
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/artTemplate/template-native.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
